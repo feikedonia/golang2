@@ -6,4 +6,10 @@ import (
 
 func main() {
 	fmt.Println("This is a test")
+
+	sub()
+}
+
+func sub() {
+	fmt.Println("The program shall end")
 }
