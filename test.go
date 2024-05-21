@@ -12,6 +12,11 @@ func main() {
 	sub()
 }
 
+func test() {
+	fmt.Println("hello world")
+}
+
 func sub() {
 	fmt.Println("The program shall end\n", name)
 }
+
